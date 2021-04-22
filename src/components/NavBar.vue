@@ -1,5 +1,6 @@
+<!--Vanessa Gutierrez 04/22/2021-->
 <template>
-  <div class="bg-black text-violet-300 py-6">
+  <div class="fixed top-0 left-0 right-0 bg-black text-violet-300 py-6 z-10">
     <div class="container mx-auto flex justify-between items-center">
       <div class="brand flex space-x-2 text-2xl">
         <mdi:message-text-outline class="text-pink-500" />

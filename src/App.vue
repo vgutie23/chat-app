@@ -1,7 +1,13 @@
+<!--Vanessa Gutierrez 04/22/2021-->
 <template>
   <NavBar />
-  <Messages v-if="isAuthenticated" />
-  <NoAuth v-else />
+  <div v-if="isAuthenticated">
+    <Messages />
+  </div>
+  <div v-else>
+    <NoAuth />
+    <Footer />
+  </div>
 </template>
 
 <script setup>
